@@ -2,8 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: #f5deb325;
-
+  background-color: #fff;
   .navbar_wrapper {
     display: flex;
     align-items: center;
@@ -44,10 +43,15 @@
         display: flex;
         gap: 15px;
 
-        li a {
-          font-weight: 400;
-          font-size: 16px;
-          color: #000;
+        li {
+          a {
+            font-weight: 400;
+            font-size: 16px;
+            color: #000;
+          }
+        }
+        li:hover a {
+          color: #fead04;
         }
       }
     }

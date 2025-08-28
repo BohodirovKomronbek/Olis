@@ -1,0 +1,41 @@
+.showcase {
+  background-color: #fff;
+  .showcase_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .showcase_left {
+      display: flex;
+      .showcase_icon {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        gap: 40px;
+        transform: rotate(270deg);
+        h6 {
+          width: 1px;
+          height: 60px;
+          background: #000;
+          transform: rotate(270deg);
+        }
+        .social_icon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 0;
+          background: rgba(254, 173, 4, 0.5);
+          padding: 5px;
+        }
+        .social_icon:hover {
+          background: #fead04;
+        }
+      }
+    }
+    .showcase_img {
+      img {
+        width: 1000px;
+        height: auto;
+      }
+    }
+  }
+}
