@@ -510,5 +510,114 @@ button {
     margin-right: 10px;
   }
 }
+.our h2 {
+  font-size: 40px;
+  line-height: 138%;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 300;
+  padding: 50px 0;
+}
+.our h2 span {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 138%;
+  text-transform: uppercase;
+  color: #000;
+}
+.our .our-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  position: relative;
+}
+.our .our-grid .card {
+  width: 100%;
+  max-width: 566px;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-size: contain;
+  background-position: center;
+}
+.our .our-grid .card img {
+  max-width: 50%;
+  height: auto;
+  position: absolute;
+}
+.our .our-grid .card1 {
+  background-image: url(../img/e-1.png);
+}
+.our .our-grid .card1 img {
+  left: 250px;
+  width: 50%;
+}
+.our .our-grid .card2 {
+  background-image: url(../img/e-1.png);
+}
+.our .our-grid .card2 img {
+  left: 250px;
+  width: 50%;
+}
+.our .our-grid .card3 {
+  background-image: url(../img/e-1.png);
+  padding-right: 10px;
+}
+.our .our-grid .card3 img {
+  top: 0;
+  right: 0;
+  width: 30%;
+}
+.our .our-grid .card4 {
+  background-image: url(../img/e-1.png);
+}
+.our .our-grid .card4 img {
+  left: 250px;
+  width: 50%;
+}
+.our .our-grid .card5 {
+  background-image: url(../img/e-1.png);
+}
+.our .our-grid .card5 img {
+  left: 250px;
+  width: 50%;
+}
+.our .our-grid .card6 {
+  background-image: url(../img/e-1.png);
+}
+.our .our-grid .card6 img {
+  left: 250px;
+  width: 50%;
+}
+.our .our_card {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  gap: 15px;
+  background: #fff;
+  width: 100%;
+  max-width: 382px;
+  height: 111px;
+  padding-left: 20px;
+  position: relative;
+  z-index: 0;
+}
+.our .our_card h1 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 138%;
+  color: #000;
+}
+.our .our_card img {
+  position: absolute;
+  right: 0;
+  z-index: 4;
+  max-width: 300px;
+  height: auto;
+}
 
 /*# sourceMappingURL=style.css.map */
